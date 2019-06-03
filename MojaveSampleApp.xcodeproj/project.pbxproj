@@ -11,6 +11,7 @@
 		46CAA41222A515E100D7841F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAA41122A515E100D7841F /* ViewController.swift */; };
 		46CAA41422A515E500D7841F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CAA41322A515E500D7841F /* Assets.xcassets */; };
 		46CAA41722A515E500D7841F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CAA41522A515E500D7841F /* Main.storyboard */; };
+		46CAA42022A52F0700D7841F /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAA41F22A52F0700D7841F /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		46CAA41622A515E500D7841F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46CAA41822A515E500D7841F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46CAA41922A515E500D7841F /* MojaveSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MojaveSampleApp.entitlements; sourceTree = "<group>"; };
+		46CAA41F22A52F0700D7841F /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,13 @@
 		46CAA40E22A515E100D7841F /* MojaveSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				46CAA41922A515E500D7841F /* MojaveSampleApp.entitlements */,
+				46CAA41822A515E500D7841F /* Info.plist */,
 				46CAA40F22A515E100D7841F /* AppDelegate.swift */,
+				46CAA41F22A52F0700D7841F /* SampleView.swift */,
 				46CAA41122A515E100D7841F /* ViewController.swift */,
 				46CAA41322A515E500D7841F /* Assets.xcassets */,
 				46CAA41522A515E500D7841F /* Main.storyboard */,
-				46CAA41822A515E500D7841F /* Info.plist */,
-				46CAA41922A515E500D7841F /* MojaveSampleApp.entitlements */,
 			);
 			path = MojaveSampleApp;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CAA41222A515E100D7841F /* ViewController.swift in Sources */,
+				46CAA42022A52F0700D7841F /* SampleView.swift in Sources */,
 				46CAA41022A515E100D7841F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

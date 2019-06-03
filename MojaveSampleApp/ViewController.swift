@@ -10,10 +10,16 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var label: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // 強制的に変更
+        // NSApplication.shared.appearance = NSAppearance(named: .aqua)
+        
     }
 
     override var representedObject: Any? {
